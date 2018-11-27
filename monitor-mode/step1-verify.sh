@@ -1,1 +1,1 @@
-which airmon-ng > /dev/null && echo done
+ls && echo done
