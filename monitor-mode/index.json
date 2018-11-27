@@ -1,0 +1,64 @@
+{
+  "pathwayTitle": "Wifi",
+  "title": "Understanding Monitor Mode",
+  "description": "Learn to passivley intercept and understand wifi traffic",
+  "difficulty": "beginner",
+  "time": "5-10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Get Setup",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Enable Monitor Mode",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Capture Traffic",
+        "text": "step3.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Analyze Traffic",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "courseBase.sh",
+      "credits": "@singe"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "wifi-replay.sh",
+          "target": "/opt/sensepost/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "crontab.tmp",
+          "target": "/opt/sensepost/"
+        },
+        {
+          "file": "sensepost.cap",
+          "target": "/opt/sensepost/capture/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": false,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
