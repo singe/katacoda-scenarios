@@ -13,7 +13,7 @@
             {
                 "title": "Do Something Else",
                 "text": "step2.md"
-            },
+            }
         ],
         "intro": {
             "text": "intro.md",
@@ -31,6 +31,6 @@
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "ubuntu",
+        "imageid": "ubuntu"
     }
 }
