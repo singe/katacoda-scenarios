@@ -1,1 +1,2 @@
-ls && echo done
+echo x
+echo done
