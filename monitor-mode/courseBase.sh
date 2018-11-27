@@ -1,5 +1,6 @@
 #!/bin/sh
 sleep 1
+apt-get install -y tcpreplay
 modprobe mac80211_hwsim
 crontab -u root /tmp/crontab.tmp
 rm -rf /tmp/crontab.tmp
