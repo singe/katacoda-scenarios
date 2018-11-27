@@ -47,7 +47,7 @@
           "target": "/tmp/"
         },
         {
-          "file": "sensepost.tgz",
+          "file": "sensepost.cap.gz.b64",
           "target": "/usr/local/share/"
         }
       ]
