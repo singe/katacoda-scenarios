@@ -39,16 +39,16 @@
       "host01": [
         {
           "file": "wifi-replay.sh",
-          "target": "/opt/sensepost/bin/",
+          "target": "~/",
           "chmod": "+x"
         },
         {
           "file": "crontab.tmp",
-          "target": "/opt/sensepost/"
+          "target": "~/"
         },
         {
           "file": "sensepost.cap",
-          "target": "/opt/sensepost/capture/"
+          "target": "~/"
         }
       ]
     }
