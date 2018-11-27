@@ -1,6 +1,6 @@
 #!/bin/bash
 tr="/usr/bin/tcpreplay"
-cap="/opt/sensepost/capture/sensepost.cap"
+cap="/usr/local/share/sensepost.cap"
 repeat=1000
 iw="/sbin/iw"
 ip="/sbin/ip"

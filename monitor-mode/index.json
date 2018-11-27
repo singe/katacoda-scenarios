@@ -9,6 +9,7 @@
       {
         "title": "Get Setup",
         "text": "step1.md",
+        "courseData": "courseBase.sh",
         "verify": "step1-verify.sh"
       },
       {
@@ -39,16 +40,16 @@
       "host01": [
         {
           "file": "wifi-replay.sh",
-          "target": "~/",
+          "target": "/usr/local/bin/",
           "chmod": "+x"
         },
         {
           "file": "crontab.tmp",
-          "target": "~/"
+          "target": "/tmp/"
         },
         {
           "file": "sensepost.cap",
-          "target": "~/"
+          "target": "/usr/local/share/"
         }
       ]
     }
