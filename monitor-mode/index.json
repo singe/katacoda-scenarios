@@ -9,7 +9,7 @@
       {
         "title": "Get Setup",
         "text": "step1.md",
-        "courseData": "courseBase.sh",
+        "code": "courseBase.sh",
         "verify": "step1-verify.sh"
       },
       {
