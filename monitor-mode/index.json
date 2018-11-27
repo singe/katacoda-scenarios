@@ -9,7 +9,7 @@
       {
         "title": "Get Setup",
         "text": "step1.md",
-        "code": "courseBase.sh",
+        "courseData": "courseBase.sh",
         "verify": "step1-verify.sh"
       },
       {
@@ -45,10 +45,6 @@
         {
           "file": "crontab.tmp",
           "target": "/tmp/"
-        },
-        {
-          "file": "sensepost.cap.gz.b64",
-          "target": "/usr/local/share/"
         }
       ]
     }
