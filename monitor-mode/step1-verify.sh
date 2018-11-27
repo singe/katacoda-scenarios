@@ -1,2 +1,2 @@
-which airmon-ng
+touch /tmp/foo
 echo done
