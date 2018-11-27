@@ -1,2 +1,2 @@
-echo x
+echo foo
 echo done
