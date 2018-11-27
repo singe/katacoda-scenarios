@@ -1,6 +1,1 @@
-dpkg -l aircrack-ng|grep -e ii -e un|grep ^ii > /dev/null 2> /dev/null
-if [ $? == 0 ]; then
-  echo done
-else
-  echo fail
-fi
+(( $(dpkg -l aircrack-ng|grep -e ii -e un|grep ^ii 2>/dev/null | wc -l) >= 1 )) && echo \"done\"
