@@ -30,7 +30,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "courseBase.sh",
       "credits": ""
     },
     "finish": {
@@ -48,7 +47,7 @@
           "target": "/tmp/"
         },
         {
-          "file": "sensepost.cap",
+          "file": "sensepost.cap.gz",
           "target": "/usr/local/share/"
         }
       ]

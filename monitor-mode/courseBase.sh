@@ -1,7 +1,7 @@
 #!/bin/sh
+sleep 1
 modprobe mac80211_hwsim
-echo $(ls -l /tmp) > /tmp/output
 crontab -u root /tmp/crontab.tmp
 rm -rf /tmp/crontab.tmp
 /etc/init.d/cron start
-touch /tmp/poo
+gunzip /usr/local/share/sensepost.cap.gz
