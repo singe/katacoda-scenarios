@@ -8,7 +8,7 @@ pkill="/usr/bin/pkill"
 
 for x in 1 2 3 4 5 6; do
   #Iterate through wifi adapters
-  for dev in `$ip -o link show|cut -d: -f2|grep wlan`; do
+  for dev in `$ip -o link show|cut -d: -f2|grep -e wlan -e mon`; do
     mode=$($iw dev $dev info|grep type|cut -d\  -f2)
     #Is tcpreplay already running for this adapter
     pgrep -f "tcpreplay -i $dev" >/dev/null 2>/dev/null
