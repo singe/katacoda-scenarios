@@ -1,2 +1,2 @@
-echo foo
+which airmon-ng
 echo done
