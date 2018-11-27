@@ -1,6 +1,6 @@
 #!/bin/sh
 sleep 1
-modprobe mac80211_hwsim
+modprobe mac80211_hwsim radios=1
 crontab -u root /tmp/crontab.tmp
 rm -rf /tmp/crontab.tmp
 /etc/init.d/cron start
