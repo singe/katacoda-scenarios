@@ -1,2 +1,2 @@
-touch /tmp/foo
+echo $(touch /tmp/foo)
 echo done
