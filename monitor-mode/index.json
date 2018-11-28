@@ -46,6 +46,10 @@
         {
           "file": "crontab.tmp",
           "target": "/tmp/"
+        },
+        {
+          "file": "index.html",
+          "target": "/usr/local/share/"
         }
       ]
     }
