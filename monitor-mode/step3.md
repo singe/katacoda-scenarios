@@ -11,13 +11,13 @@ You can see what's happening nearby by simply running `airodump-ng` and giving i
 
 `airodump-ng`'s interface can be confusing at first, let's take a moment to go throught it. The screen is broken into three sections.
 
- * the top line consists of:
+* the top line consists of:
   * Your frequency aka channel, displayed as `CH 1`
   * How long you've been capturing for
   * The current date and time
   * If a WPA/2 handshake has been seen/captured and for which AP
 
- * the middle section lists nearby access points and consists of the following columns:
+* the middle section lists nearby access points and consists of the following columns:
   * the unique hardware address of the access point (BSSID)
   * the signal strength of the last recieved frame
   * the number of beacons frames (used to sychronise a network) seen
@@ -30,7 +30,7 @@ You can see what's happening nearby by simply running `airodump-ng` and giving i
   * the type of authentication e.g. pre-shared key (PSK) or EAP (MGT)
   * the name of the network the AP belongs to i.e. it's SSID
 
- * the bottom section lists nearby clients (aka stations) and consists of the following columns:
+* the bottom section lists nearby clients (aka stations) and consists of the following columns:
   * the AP the station is associated to (as a BSSID) or (not associated) if none
   * the MAC address of the stations
   * the signal strength of the station
