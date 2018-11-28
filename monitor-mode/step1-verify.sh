@@ -1,1 +1,1 @@
-ssh root@[[HOST_IP]] "echo done"
+ssh root@[[HOST_IP]] "which airmon-ng && echo done"
