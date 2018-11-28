@@ -1,1 +1,1 @@
-ssh root@[[HOST_IP]] 'cd /usr/local/share/ && python -m SimpleHTTPServer 80&'
+ssh root@[[HOST_IP]] 'cd /usr/local/share/ && nohup python -m SimpleHTTPServer 80'
