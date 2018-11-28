@@ -24,6 +24,7 @@
       {
         "title": "Analyze Traffic",
         "text": "step4.md",
+        "courseData": "step4-base.sh",
         "verify": "step4-verify.sh"
       }
     ],
