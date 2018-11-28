@@ -1,2 +1,1 @@
-echo foo > /tmp/foo
-echo done
+which airmon-ng && echo done
