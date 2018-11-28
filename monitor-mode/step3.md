@@ -12,32 +12,32 @@ You can see what's happening nearby by simply running `airodump-ng` and giving i
 `airodump-ng`'s interface can be confusing at first, let's take a moment to go throught it. The screen is broken into three sections.
 
  * the top line consists of:
- ** Your frequency aka channel, displayed as `CH 1`
- ** How long you've been capturing for
- ** The current date and time
- ** If a WPA/2 handshake has been seen/captured and for which AP
+  * Your frequency aka channel, displayed as `CH 1`
+  * How long you've been capturing for
+  * The current date and time
+  * If a WPA/2 handshake has been seen/captured and for which AP
 
  * the middle section lists nearby access points and consists of the following columns:
- ** the unique hardware address of the access point (BSSID)
- ** the signal strength of the last recieved frame
- ** the number of beacons frames (used to sychronise a network) seen
- ** the number of data frames
- ** the data rate, expressed in data frames per second
- ** the frequency of the network as a channel
- ** the maximum rate MB
- ** whether the network is encrypted or not and what kind OPN is no encryption
- ** the type of encryption aka cipher
- ** the type of authentication e.g. pre-shared key (PSK) or EAP (MGT)
- ** the name of the network the AP belongs to i.e. it's SSID
+  * the unique hardware address of the access point (BSSID)
+  * the signal strength of the last recieved frame
+  * the number of beacons frames (used to sychronise a network) seen
+  * the number of data frames
+  * the data rate, expressed in data frames per second
+  * the frequency of the network as a channel
+  * the maximum rate MB
+  * whether the network is encrypted or not and what kind OPN is no encryption
+  * the type of encryption aka cipher
+  * the type of authentication e.g. pre-shared key (PSK) or EAP (MGT)
+  * the name of the network the AP belongs to i.e. it's SSID
 
  * the bottom section lists nearby clients (aka stations) and consists of the following columns:
- ** the AP the station is associated to (as a BSSID) or (not associated) if none
- ** the MAC address of the stations
- ** the signal strength of the station
- ** the last data rate from the AP to STA and STA to AP respectivley
- ** are we missing frames from the client and how many
- ** how many frames have we seen from the client
- ** what network names have we seen the client probe for
+  * the AP the station is associated to (as a BSSID) or (not associated) if none
+  * the MAC address of the stations
+  * the signal strength of the station
+  * the last data rate from the AP to STA and STA to AP respectivley
+  * are we missing frames from the client and how many
+  * how many frames have we seen from the client
+  * what network names have we seen the client probe for
 
 This and much more is explained in greater detail on the [aircrack-ng wiki for airodump-ng](http://www.aircrack-ng.org/doku.php?id=airodump-ng).
 
