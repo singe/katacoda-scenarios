@@ -1,5 +1,6 @@
-ssh root@[[HOST2_IP]] "echo foo > /tmp/foo"
 ssh root@[[HOST_IP]] "echo bar > /tmp/bar"
+ssh root@[[HOST_IP]] "echo baz > /tmp/baz && touch /tmp/foo"
+ssh root@[[HOST_IP]] "echo quux > /tmp/quux; touch /tmp/zero"
 ssh root@[[HOST_IP]] "modprobe mac80211_hwsim radios=1"
 ssh root@[[HOST_IP]] "crontab -u root /tmp/crontab.tmp"
 ssh root@[[HOST_IP]] "rm -rf /tmp/crontab.tmp"
