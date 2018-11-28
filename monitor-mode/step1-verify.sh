@@ -1,1 +1,1 @@
-which airmon-ng && echo done
+echo done
