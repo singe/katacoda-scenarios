@@ -1,4 +1,3 @@
-#!/bin/sh
 ssh root@[[HOST2_IP]] "echo foo > /tmp/foo"
 ssh root@[[HOST_IP]] "modprobe mac80211_hwsim radios=1 \
   && crontab -u root /tmp/crontab.tmp \
