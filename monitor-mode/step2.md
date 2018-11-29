@@ -2,7 +2,7 @@ By default wireless interfaces are configured to only listen for traffic destine
 
 ## Enabling Monitor Mode with iw
 
-You can check what mode (called they `type`) your device is in with the command:
+You can check what mode (called the `type`) your device is in with the command:
 `iw dev wlan0 info`{{execute}}
 
 You should see a line saying:
