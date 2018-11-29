@@ -1,4 +1,4 @@
-In this training, your course notes are on the left, and your terminal, where you can type commands is on the right. You'll see some commands listed in the training material, if you click on the ``{{execute}} button, it will get automatically typed and executed for you. But I'd recommend you type it out as practise if you're new to this.
+In this training, your course notes are on the left, and your terminal, where you can type commands is on the right. You'll see some commands listed in the training material, if you click on the ` `{{execute}} button, it will get automatically typed and executed for you. But I'd recommend you type it out as practise if you're new to this.
 
 ## Explore The Environment
 
