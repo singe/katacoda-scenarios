@@ -32,6 +32,7 @@
         "title": "Analyze Traffic",
         "text": "step5.md",
         "courseData": "step5-base.sh",
+        "answer": "step5-answer.md",
         "verify": "step5-verify.sh"
       }
     ],
