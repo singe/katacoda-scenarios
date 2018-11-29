@@ -3,7 +3,7 @@
   "title": "Understanding Monitor Mode",
   "description": "Learn to passivley intercept and understand wifi traffic",
   "difficulty": "beginner",
-  "time": "5-10 minutes",
+  "time": "10-20 minutes",
   "details": {
     "steps": [
       {
@@ -23,10 +23,15 @@
         "verify": "step3-verify.sh"
       },
       {
-        "title": "Analyze Traffic",
+        "title": "Crack The Password",
         "text": "step4.md",
-        "courseData": "step4-base.sh",
         "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Analyze Traffic",
+        "text": "step5.md",
+        "courseData": "step5-base.sh",
+        "verify": "step5-verify.sh"
       }
     ],
     "intro": {
@@ -52,18 +57,21 @@
         {
           "file": "index.html",
           "target": "/usr/local/share/"
+        },
+        {
+          "file": "wordlist",
+          "target": "/usr/share/dict/"
         }
       ]
     }
   },
   "environment": {
     "showdashboard": true,
-    "dashboard": "CloudShark",
+    "dashboards": [{"name": "Cloudshark", "port": 80}],
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 80
   }
 }
