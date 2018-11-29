@@ -25,6 +25,7 @@
       {
         "title": "Crack The Password",
         "text": "step4.md",
+        "answer": "step4-answer.md",
         "verify": "step4-verify.sh"
       },
       {
