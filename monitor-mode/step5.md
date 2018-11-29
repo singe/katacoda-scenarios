@@ -42,6 +42,8 @@ Easy, right?
 We can also filter for Probe Requests like we did with cloudshark with:
 `tshark -r prac-01.cap 'wlan.fc.type_subtype == 0x04'`{{execute}}
 
+You can look up other display filters at [wireshark's Display Filter Reference](http://wireshark.org/docs/dfref/w/wlan.html).
+
 ## Displaying Specific Fields
 
 `tshark` can let you choose what to display about each frame. This is done using the `-T fields` switch, and specifying each field you want included in the output with `-e` switches. For example, `wlan.sa` is the MAC address of the device that sent a wireless frame. If we wanted to show just the sending address, we would do it like this:
