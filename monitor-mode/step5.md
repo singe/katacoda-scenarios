@@ -35,7 +35,7 @@ If you named your capture file something else, make sure to change the file name
 You'll see tshark dump a summary of all the frames in that capture.
 
 Now, let's filter in the same way we did with cloudshark. First, for `eapol` frames, with:
-`tshark -r prac-10.cap 'eapol'`{{execute}}
+`tshark -r prac-01.cap 'eapol'`{{execute}}
 
 Easy, right?
 
@@ -48,7 +48,7 @@ We can also filter for Probe Requests like we did with cloudshark with:
 `tshark -r prac-01.cap -T fields -e wlan.sa`{{execute}}
 
 And if we wanted to add our filter in, just put it on the end as before:
-`tshark -r prac01-01.cap -T fields -e wlan.sa 'eapol'`{{execute}}
+`tshark -r prac-01.cap -T fields -e wlan.sa 'eapol'`{{execute}}
 
 We can also add in more fields, for example, the SSID field is `wlan.ssid` if we wanted to show the sending address of SSID probed for, of all Probe Requests, it would be:
 `tshark -r prac-01.cap -T fields -e wlan.sa -e wlan.ssid 'wlan.fc.type_subtype == 0x04'`{{execute}}
