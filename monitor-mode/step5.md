@@ -4,7 +4,7 @@ The defacto tool for doing this is [wireshark](https://www.wireshark.org/) howev
 
 ## Cloudshark
 
-You'll notice a tab above your terminal to the right of the `Terminal` tab called `Cloudshark`. Click on it and you'll be taken to a graphical view of your captured packets. Alternativley, you can access it directly [here](https://www.cloudshark.org/captures/cd37ad9b7280).
+You'll notice a tab above your terminal to the right of the `Terminal` tab called `Cloudshark`. Click on it and you'll be taken to a graphical view of your captured packets (it may take a few seconds to appear, if it doesn't load, click the blue `Display Port` button). Alternativley, you can access it directly [here](https://www.cloudshark.org/captures/cd37ad9b7280).
 
 The view is broken into four layers:
 

@@ -17,7 +17,7 @@ The reason the fourth part is optional, is because with just the MIC from the cl
 
 In the next step, we'll dive into the actual packets, but for now, the easiest way to check if you have enough to crack a handshake, is to make use of the `aircrack-ng` tool.
 
-Make sure you've exited from `airodump-ng` before you do this next part.
+Make sure you've exited from `airodump-ng` with <kbd>Ctrl</kbd>+<kbc>c</kbd> before you do this next part.
 
 The simplest way to check if you have enough of a handshake to attempt cracking is just to run `aircrack-ng` across all your capture files. If you type `ls`{{execute}} you should see one of more files ending with the extension `.cap`. If you ran the previous step as I suggested, you should see:
 
