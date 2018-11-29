@@ -14,6 +14,7 @@
       {
         "title": "Enable Monitor Mode",
         "text": "step2.md",
+        "courseData": "step2-base.sh",
         "verify": "step2-verify.sh"
       },
       {
