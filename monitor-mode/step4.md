@@ -46,7 +46,7 @@ It looks like we do have a handshake captured for the `Coherer` network and can 
 
 ## Cracking The Password
 
-To crack the password, we need to brute force it, by completing the same cryptographic steps the access point and client would have, but with different passwords. The IEEE thought of this attack, and so it's typically a slow process, which is why tools like [hashcat](https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2) can make it a bit faster using your GPU.
+To crack the password, we need to brute force it, by completing the same cryptographic steps the access point and client would have, but with different passwords. The IEEE thought of this attack, and so it's typically a slow process, which is why tools like [hashcat](https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2) can make it a bit faster using your GPU. It's also why you should make sure you WPA/2 passwords are complex and unique (a sentence with spaces can be easy to remember).
 
 To crack the password, we'll need a wordlist. As WPA/2 passwords need to be between 8-64 characters, make sure your wordlist doesn't include passwords less than 8 characters.
 
